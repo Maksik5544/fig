@@ -1,0 +1,321 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+p, h1, h2, h3, i, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #008060;
+}
+
+header {
+    background: #002d2d;
+    color: white;
+    max-height: 631px;
+    box-sizing: border-box;
+}
+
+.overlay {
+    height: 58px;
+    background: #a5e3b9;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.close {
+    background: transparent;
+    border: none;
+}
+
+div, section, article {
+    display: flex;
+}
+
+.nav {
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav>div>img {
+    max-width: 121px;
+    max-height: 34px;
+    margin-right: 3rem;
+}
+
+.nav>div>select {
+    margin: 1rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.nav>div>a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+button {
+    width: 146px;
+    height: 48px;
+    background: #008060;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-left: 1rem;
+}
+
+
+
+.text {
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.text>h1 {
+    font-size: 58px;
+}
+.text>h1+p {
+    font-size: 18px;
+}
+
+.forma {
+    align-items: center;
+}
+
+input {
+    width: 310px;
+    height: 51px;
+}
+
+.forma+p {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.start-image {
+    margin-left: 3rem;
+}
+
+.start-image>img {
+    width: 590px;
+    height: 493px;
+}
+
+main {
+    padding: 0 3rem;
+}
+
+main>h1 {
+    font-size: 60px;
+}
+
+.green-block {
+    max-width: 1152px;
+    height: 564px;
+    background: #799102;
+    color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    padding: 2rem 0 0 2rem;
+}
+
+.green-block>h3,p {
+    margin: 0;
+}
+
+.conteiner {
+    flex-direction: column;
+    border-top:3px solid #939393;
+    margin: 3rem 1rem;
+}
+
+.conteiner>h2,p {
+    margin: 1rem 0;
+}
+
+section {
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.content {
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.connect-img {
+    background-color: #fde3dc;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 535px;
+    border-radius: 30px;
+}
+
+.connect-img>img {
+    width: 374px;
+    height: 453px;
+}
+
+.inventory-img {
+    background-color: #c6f0fc;
+    justify-content: center;
+    align-items: center;
+    width: 636px;
+    height: 452px;
+    border-radius: 30px;
+}
+
+.inventory-img>img {
+    width: 506px;
+    height: 336px;
+}
+
+.merch {
+    flex-direction: column;
+}
+
+.merch>p {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.merch>h2 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.merch>h2+p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.merch-img>img {
+    width: 360px;
+    height: 339px;
+}
+
+.but {
+    margin: 2rem;
+}
+
+.but button {
+    background-color: black;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.block-help {
+    flex-direction: column;
+    background-color: #ffedd3;
+    padding-left: 3rem;
+}
+
+.block-help>h1 {
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 20px;
+}
+
+.help>div>h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.help>div>i {
+    color: #6b7177;
+    line-height: 24px;
+    margin: 1rem 0;
+}
+
+.help>div {
+    flex-direction: column;
+}
+
+.help-img>img {
+    width: 640px;
+    height: 766px;
+}
+
+article {
+    flex-direction: column;
+    align-items: center;
+}
+
+article>p {
+    margin-bottom: 3rem;
+}
+
+footer {
+    background-color: #004c3f;
+    margin-top: 5rem;
+    padding: 0 3rem;
+}
+
+.footer-top>a {
+    color: white;
+    margin: 0.5rem 1em;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.footer-midle {
+    display: grid;
+    grid-template-columns: repeat(6, 3fr);
+    gap: 30px;
+}
+
+.footer-midle div {
+    flex-direction: column;
+    
+}
+
+.footer-midle>div>a {
+    color: white;
+    line-height: 21px;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+.footer-bot {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot-img img {
+    width: 22px;
+    height: 22px;
+    margin: 2rem 1rem;
+}
+
+.bot-lang div img {
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+}
+
+.bot-lang>a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.bot-lang div select {
+    height: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 1rem;
+}
